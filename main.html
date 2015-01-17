@@ -1,0 +1,153 @@
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Submarine</title>
+	<link rel="stylesheet" href="./css/bootstrap.min.css">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="./scripts/jquery-2.js"></script>
+	<script src="./scripts/bootstrap.min.js"></script>
+	<script src="joke.js"></script>
+
+
+	<STYLE>
+	td {
+		/*border:1px solid black;*/
+		text-align: center;
+	}
+	td > div > span {
+		cursor:pointer;
+	}
+	#MakeDiv {
+		visibility:hidden;
+		/*border:1px solid red;*/
+
+		position: absolute;
+		width:80%;
+		height:65%;
+
+		margin-left:15%;
+		margin-top:25%;
+
+		table-layout:fixed;
+	}
+	#MakeDiv > table {
+		width:100%;
+		height:100%;
+
+		border:1px solid black;
+	}
+	#MakeDiv > table > tbody > tr {
+		width:100%;
+		height:20%;
+		overflow: hidden;
+	}
+	.MakeRow {
+		width:20%;
+		height:100%;
+	    overflow: hidden;
+	    display: inline-block;
+	    white-space: nowrap;
+	}
+	#netaDiv {
+		position:absolute;
+		left:30px;
+	}
+	#gameDiv {
+		margin-top:50px;
+		margin-left:0px;
+	}
+	#jokeDiv {
+		/*border:1px solid black;*/
+		width:150px;
+		height:150px;
+	}
+	#characterDiv {
+		margin-top:-120px;
+		margin-left:130px;
+	}
+	#character {
+		margin-left:50px;
+	}
+	#slotmachine {
+		margin-left:100px;
+		/*border:1px solid black;*/
+		width:200px;
+		height:150px;
+	}
+	#statusDiv {
+		margin-top: 60px;
+		margin-left: 40%;
+		/*margin-left:180px;*/
+	}
+	#SLOT {
+		/*margin-top:0px;*/
+		/*margin-left:100px;	*/
+	}
+	</STYLE>
+</head>
+<body>
+	<div class="row">
+		<div id="MakeDiv">
+			<table border="1">
+				<tr><td class="MakeRow"></td><td class="MakeRow"></td><td class="MakeRow"></td><td class="MakeRow"></td><td class="MakeRow"></td></tr>
+				<tr><td class="MakeRow"></td><td class="MakeRow"></td><td class="MakeRow"></td><td class="MakeRow"></td><td class="MakeRow"></td></tr>
+				<tr><td class="MakeRow"></td><td class="MakeRow"></td><td class="MakeRow"></td><td class="MakeRow"></td><td class="MakeRow"></td></tr>
+				<tr><td class="MakeRow"></td><td class="MakeRow"></td><td class="MakeRow"></td><td class="MakeRow"></td><td class="MakeRow"></td></tr>
+				<tr><td class="MakeRow"></td><td class="MakeRow"></td><td class="MakeRow"></td><td class="MakeRow"></td><td class="MakeRow"></td></tr>
+			</table>
+		</div>
+		<div id="categoryDiv" class="col-md-3 col-lg-3">
+			<table class="table">
+				<tr>
+					<td>
+						<div id="C1Div" class="Neta"><span>소재1</span><span class="Star"></span></div>
+					</td>
+					<td>
+						<div id="C2Div" class="Neta"><span>소재2</span><span class="Star"></span></div>
+					</td>
+					<td>
+						<div id="C3Div" class="Neta"><span>소재3</span><span class="Star"></span></div>
+					</td>
+					<td>
+						<div id="C4Div" class="Neta"><span>소재4</span><span class="Star"></span></div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<div id="C5Div" class="Neta"><span>소재5</span><span class="Star"></span></div>
+					</td>
+					<td>
+						<div id="C6Div" class="Neta"><span>소재6</span><span class="Star"></span></div>
+					</td>
+					<td>
+						<div id="C7Div" class="Neta"><span>소재7</span><span class="Star"></span></div>
+					</td>
+					<td>
+						<div id="C8Div" class="Neta"><span>소재8</span><span class="Star"></span></div>
+					</td>
+				</tr>
+			</table>
+
+		</div>
+
+		<div id="gameDiv" class="col-md-3 col-lg-3">
+			<div id="slotmachine" class="row"></div>
+			<div id="jokeDiv"></div>
+			<div id="characterDiv">
+				<img id="character" src="civ1_char.png" />
+			</div>
+		</div>
+		<div id="statusDiv">
+			<div id="concentRate"><span>집중력 : </span><span id="concVal">100</span></div></br>
+			<div id="netaDiv"></div>
+			<button class="btn btn-primary" id="SLOT">창작!</button>
+			<button class="btn btn-warning" id="DELETE">버리기</button>
+			<button class="btn btn-primary" id="SELL">발표!</button>
+		</div>
+
+		
+	</div>
+
+</body>
+</html>
