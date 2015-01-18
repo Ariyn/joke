@@ -19,25 +19,34 @@
 		cursor:pointer;
 	}
 	#MakeDiv {
-		visibility:hidden;
+		z-index: 5;
 		/*border:1px solid red;*/
 
 		position: absolute;
 		width:80%;
-		height:65%;
+		height:10%;
 
 		margin-left:15%;
-		margin-top:25%;
+		margin-top:45%;
 
 		table-layout:fixed;
 	}
-	#MakeDiv > table {
+	#MakeDivBlender {
+		visibility:hidden;
+	}
+	#MakeDivInfo {
+		visibility:hidden;
+		position:absolute;
+		top:-70px;
+		left:50px;
+	}
+	#MakeDivBlender > table {
 		width:100%;
 		height:100%;
 
 		border:1px solid black;
 	}
-	#MakeDiv > table > tbody > tr {
+	#MakeDivBlender > table > tbody > tr {
 		width:100%;
 		height:20%;
 		overflow: hidden;
@@ -49,6 +58,10 @@
 	    display: inline-block;
 	    white-space: nowrap;
 	}
+	#BLEND {
+		margin-top:3%;
+		margin-left:82%;
+	}
 	#netaDiv {
 		position:absolute;
 		left:30px;
@@ -59,6 +72,7 @@
 	}
 	#jokeDiv {
 		/*border:1px solid black;*/
+		margin-top:4%;
 		width:150px;
 		height:150px;
 	}
@@ -82,49 +96,50 @@
 	}
 	#SLOT {
 		/*margin-top:0px;*/
-		/*margin-left:100px;	*/
+		/*margin-left:100px;*/
 	}
 	</STYLE>
 </head>
 <body>
 	<div class="row">
 		<div id="MakeDiv">
-			<table border="1">
-				<tr><td class="MakeRow"></td><td class="MakeRow"></td><td class="MakeRow"></td><td class="MakeRow"></td><td class="MakeRow"></td></tr>
-				<tr><td class="MakeRow"></td><td class="MakeRow"></td><td class="MakeRow"></td><td class="MakeRow"></td><td class="MakeRow"></td></tr>
-				<tr><td class="MakeRow"></td><td class="MakeRow"></td><td class="MakeRow"></td><td class="MakeRow"></td><td class="MakeRow"></td></tr>
-				<tr><td class="MakeRow"></td><td class="MakeRow"></td><td class="MakeRow"></td><td class="MakeRow"></td><td class="MakeRow"></td></tr>
-				<tr><td class="MakeRow"></td><td class="MakeRow"></td><td class="MakeRow"></td><td class="MakeRow"></td><td class="MakeRow"></td></tr>
-			</table>
+			<div id="MakeDivBlender">
+				<table border="1">
+					<tr><td class="MakeRow"></td><td class="MakeRow"></td><td class="MakeRow"></td><td class="MakeRow"></td><td class="MakeRow"></td></tr>
+				</table>
+				<!-- <button id="BLEND" class="btn btn-primary"> 섞기!</button> -->
+			</div>
+			<div id="MakeDivInfo">
+			</div>
 		</div>
 		<div id="categoryDiv" class="col-md-3 col-lg-3">
 			<table class="table">
 				<tr>
 					<td>
-						<div id="C1Div" class="Neta"><span>소재1</span><span class="Star"></span></div>
+						<div id="C1Div" class="Neta"><span>소재1</span></div>
 					</td>
 					<td>
-						<div id="C2Div" class="Neta"><span>소재2</span><span class="Star"></span></div>
+						<div id="C2Div" class="Neta"><span>소재2</span></div>
 					</td>
 					<td>
-						<div id="C3Div" class="Neta"><span>소재3</span><span class="Star"></span></div>
+						<div id="C3Div" class="Neta"><span>소재3</span></div>
 					</td>
 					<td>
-						<div id="C4Div" class="Neta"><span>소재4</span><span class="Star"></span></div>
+						<div id="C4Div" class="Neta"><span>소재4</span></div>
 					</td>
 				</tr>
 				<tr>
 					<td>
-						<div id="C5Div" class="Neta"><span>소재5</span><span class="Star"></span></div>
+						<div id="C5Div" class="Neta"><span>소재5</span></div>
 					</td>
 					<td>
-						<div id="C6Div" class="Neta"><span>소재6</span><span class="Star"></span></div>
+						<div id="C6Div" class="Neta"><span>소재6</span></div>
 					</td>
 					<td>
-						<div id="C7Div" class="Neta"><span>소재7</span><span class="Star"></span></div>
+						<div id="C7Div" class="Neta"><span>소재7</span></div>
 					</td>
 					<td>
-						<div id="C8Div" class="Neta"><span>소재8</span><span class="Star"></span></div>
+						<div id="C8Div" class="Neta"><span>소재8</span></div>
 					</td>
 				</tr>
 			</table>
