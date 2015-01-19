@@ -2,6 +2,8 @@ var jokeCategory = ["소재1", "소재2", "소재3", "소재4", "소재5", "소�
 var iNetas = [], totalMass = 0
 var selectNeta = null
 
+var jokeType = null, jokeObject = null
+
 var blenderIndex = 0;
 
 var categorys = [0, 0, 0, 0, 0]
@@ -32,6 +34,8 @@ function MakeNeta(type) {
 }
 
 function Joke(jc) {
+	this.name = "농담의 이름이다."
+	this.tier = "12등급 썰렁함"
 	this.category = jc
 
 	this.quality = function(jc) {
@@ -77,6 +81,9 @@ function reset() {
 
 	$("#MakeDiv").css("visibility", "hidden")
 	$("#gameDiv").css("visibility", "visible")
+
+	$("#ObjectDiv>button").text("주제")
+	$("#TypeDiv>button").text("타입")
 }
 
 function refresh() {
@@ -100,7 +107,7 @@ function init() {
 	// }).css("cursor", "auto")
 
 	$(".Neta").click(function(e) {
-		if(slotMode) {
+		if(slotMode && blenderIndex < 5) {
 			var _selectNeta = new MakeNeta($(this).text())
 			var thisBox = $(".MakeRow:eq("+blenderIndex+")")
 
@@ -114,7 +121,7 @@ function init() {
 	})
 
 
-	$("#SLOT").click(function(e) {
+	var slot = function() {
 		if(!slotMode) {
 			$("#MakeDivBlender").css("visibility", "visible")
 			$("#MakeDivInfo").css("visibility", "hidden")
@@ -123,11 +130,39 @@ function init() {
 			refresh()
 
 			slotMode = true
+		}
+	}
+
+	$(".dropdown-menu>li").click(function() {
+		var thisLi = $(this)
+		var type = thisLi.parent().parent().attr("id"), index = thisLi.index()
+		if(type == "TypeDiv") {
+			jokeType = thisLi.text()
+			$("#TypeDiv>button").text(jokeType)
 		} else {
+			jokeObject = thisLi.text()
+			$("#ObjectDiv>button").text(jokeObject)
+		}
+
+		if(jokeObject != null && jokeType != null) {
+			slot()
+			$("#ObjectDiv").css("visibility", "hidden")
+			$("#TypeDiv").css("visibility", "hidden")
+
+			$("#DELETE").css("visibility", "visible")
+			$("#SELL").css("visibility", "visible")	
+		}
+	})
+
+	$("#SELL").click(function() {
+		if(slotMode && 1 < blenderIndex) {
 			$("#MakeDivBlender").css("visibility", "hidden")
 			$("#MakeDivInfo").css("visibility", "visible")
+			$("#SELL").text("발표!")
+			console.log("lenderIndex",blenderIndex)
 
 			if(0 < concentRate) {
+				
 				$("#MakeDivInfo").html("")
 				$("#jokeDiv").html("")
 				
@@ -141,12 +176,24 @@ function init() {
 
 				for(var i in iNetas) {
 					console.log(iNetas[i])
-					divString += "<div class=\"col-md-3\">"+iNetas[i][2].type+"</div>"
+					// divString += "<div class=\"col-md-3\">"+iNetas[i][2].type+"</div>"
+					divString += iNetas[i][2].type+"\t\t"
 				}
 
 				if(divString != "") {
-					divString += "<div>퀄리티 : "+joke.quality+"</div><div>수준 연령대 : "+joke.targetAge+"</div><div>"+joke.info+"</div>"
-					$("#MakeDivInfo").append($(divString))
+					$("#ResultDiv")
+						.css("visibility", "visible")
+						.css("display","inline")
+						// .left
+
+					$("#JokeName").text(joke.name)
+					$("#JokeTier").text(joke.tier)
+					$("#JokeRecipe").text(divString)
+					$("#JokeInfo").text(joke.info)
+					$("#JokeReactionDiv").text(joke.targetAge)
+
+					// divString += "<div>퀄리티 : "+joke.quality+"</div><div>수준 연령대 : "+joke.targetAge+"</div><div>"+joke.info+"</div>"
+					// $("#MakeDivInfo").append($(divString))
 
 					// $("#jokeDiv").append($(
 					// "<div class=\"col-md-3\">분야1 : "+joke.categoryType[0]+"</div>"+
@@ -158,29 +205,48 @@ function init() {
 				refresh()
 				reset()
 			}
-		}
-	})
+		} else {
+			joke = new Joke(iNetas);
 
-	$("#SELL").click(function() {
-		joke = new Joke(iNetas);
+			console.log(joke.quality, joke.jc, joke.CategoryType, joke)
 
-		console.log(joke.quality, joke.jc, joke.CategoryType, joke)
+			if(joke != null){
+				concentRate += joke.quality
+				money += joke.quality * 1000
 
-		if(joke != null){
-			concentRate += joke.quality
-			money += joke.quality * 1000
+				refresh()
+				reset()
+				jokeObject = null, jokeType = null
 
-			refresh()
-			reset()
+				$("#ResultDiv")
+					.css("visibility", "hidden")
+					.css("display","none")
+
+				$("#MakeDivInfo").css("visibility","hidden")
+
+				$("#ObjectDiv").css("visibility", "visible")
+				$("#TypeDiv").css("visibility", "visible")
+
+				$("#DELETE").css("visibility", "hidden")
+				$("#SELL").css("visibility", "hidden")
+			}
 		}
 	})
 
 	$("#DELETE").click(function() {
-		if(joke != null){
-			console.log(joke.quality)
+		jokeObject = null, jokeType = null
 
+		refresh()
+		reset()
 
-		}
+		$("#MakeDivBlender").css("visibility", "hidden")
+		$("#MakeDivInfo").css("visibility","hidden")
+
+		$("#ObjectDiv").css("visibility", "visible")
+		$("#TypeDiv").css("visibility", "visible")
+
+		$("#DELETE").css("visibility", "hidden")
+		$("#SELL").css("visibility", "hidden")
 	})
 }
 

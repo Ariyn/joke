@@ -3,6 +3,8 @@
 	<meta charset="utf-8" />
 	<title>Submarine</title>
 	<link rel="stylesheet" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" href="./css/bootstrap-theme.css">
+	
 
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="./scripts/jquery-2.js"></script>
@@ -94,9 +96,92 @@
 		margin-left: 40%;
 		/*margin-left:180px;*/
 	}
-	#SLOT {
-		/*margin-top:0px;*/
-		/*margin-left:100px;*/
+	#DELETE, #SELL {
+		visibility: hidden;
+	}
+	#typeDiv {
+		float:left;
+	}
+	#ObjectDiv {
+		float:left;
+		margin-left:20px;
+	}
+
+	#ResultDiv {
+		position:absolute;
+		min-width:240px;
+		min-height:300px;
+
+		left:115px;
+		top:80px;
+
+		border:1px solid black;
+		visibility: hidden;
+		display:none;
+	}
+	#ResultDiv > div {
+		position:relative;
+		width:100%
+		height:100%;
+	}
+	#JokeIcon {
+		position:relative;
+		float:left;
+		width:70px;
+		height:70px;
+
+		margin-top:30px;
+		margin-left:30px;
+
+	}
+	#BigInfoDiv {
+		position:relative;
+		
+		float:right;
+
+		margin-top:30px;
+		margin-right:20px;
+	}
+	#JokeName {
+		position:relative;
+
+		top:10px;
+		margin-right:30px;
+	}
+	#JokeTier {
+		position:relative;
+
+		top:20px;
+		margin-right:20px;
+	}
+	#SmallInfoDiv {
+		position:relative;
+		
+		left:30px;
+		top:60px;
+	}
+	#JokeInfo {
+		position:relative;
+		float:left;
+
+		margin-top:10px;
+		margin-right:30px;
+	}
+	#JokeRecipe {
+		position:relative;
+		float:left;
+
+		margin-top:10px;
+		margin-right:30px;
+	}
+	#JokeReactionDiv {
+		position:relative;
+		float:left;
+
+		top:40px;
+		left:-83px;
+		/*margin-top:10px;*/
+		/*margin-right:30px;	*/
 	}
 	</STYLE>
 </head>
@@ -150,18 +235,64 @@
 			<div id="slotmachine" class="row"></div>
 			<div id="jokeDiv"></div>
 			<div id="characterDiv">
-				<img id="character" src="civ1_char.png" />
+				<!-- <img id="character" src="civ1_char.png" /> -->
 			</div>
 		</div>
 		<div id="statusDiv">
 			<div id="concentRate"><span>집중력 : </span><span id="concVal">100</span></div></br>
 			<div id="netaDiv"></div>
-			<button class="btn btn-primary" id="SLOT">창작!</button>
+
+			<div class="dropdown dropup" id="TypeDiv">
+				<button class="btn btn-default dropdown-toggle " type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
+					타입
+					<span class="caret"></span>
+				</button>
+				<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+					<li role="presentation"><a role="menuitem" tabindex="-1" href="#">콩트 개그</a></li>
+					<li role="presentation"><a role="menuitem" tabindex="-1" href="#">스탠딩 개그</a></li>
+					<li role="presentation"><a role="menuitem" tabindex="-1" href="#">인쇄용 개그</a></li>
+					<li role="presentation"><a role="menuitem" tabindex="-1" href="#">아저씨 개그</a></li>
+				</ul>
+			</div>
+
+			<div class="dropdown dropup" id="ObjectDiv">
+				<button class="btn btn-default dropdown-toggle " type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
+					주제
+					<span class="caret"></span>
+				</button>
+				<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+					<li role="presentation"><a role="menuitem" tabindex="-1" href="#">풍자</a></li>
+					<li role="presentation"><a role="menuitem" tabindex="-1" href="#">말장난</a></li>
+					<li role="presentation"><a role="menuitem" tabindex="-1" href="#">슬랩스틱</a></li>
+					<li role="presentation"><a role="menuitem" tabindex="-1" href="#">바보짓</a></li>
+				</ul>
+			</div>
+			</br>
+			</br>
+			<!-- <button class="btn btn-primary" id="SLOT">창작!</button> -->
 			<button class="btn btn-warning" id="DELETE">버리기</button>
-			<button class="btn btn-primary" id="SELL">발표!</button>
+			<button class="btn btn-primary" id="SELL">믹스!</button>
 		</div>
 
 		
+	</div>
+
+	<div id="ResultDiv" class="row">
+		<div>
+			<img class="img-circle" id="JokeIcon" />
+			<div id="BigInfoDiv" class="col-md-2">
+				<span id="JokeName">64e</span></br>
+				<span id="JokeTier">test tier</span>
+			</div>
+			<div id="SmallInfoDiv" class="col-md-5">
+				<span id="JokeInfo">이건 안된다.... 매장당할꺼야.</span></br>
+				<span id="JokeRecipe">1,2,3,4,5</span>
+				<div id="JokeReactionDiv">
+					test
+					<img id="JokeReactonBaseImage" />
+				</div>
+			</div>
+		</div>
 	</div>
 
 </body>
