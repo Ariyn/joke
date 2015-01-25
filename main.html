@@ -13,183 +13,221 @@
 
 
 	<STYLE>
-	td {
-		/*border:1px solid black;*/
-		text-align: center;
-	}
-	td > div > span {
-		cursor:pointer;
-	}
-	#MakeDiv {
-		z-index: 5;
-		/*border:1px solid red;*/
+		td {
+			/*border:1px solid black;*/
+			text-align: center;
+		}
+		td > div > span {
+			cursor:pointer;
+		}
+		#MakeDiv {
+			z-index: 5;
+			/*border:1px solid red;*/
 
-		position: absolute;
-		width:80%;
-		height:10%;
+			position: absolute;
+			width:80%;
+			height:10%;
 
-		margin-left:15%;
-		margin-top:45%;
+			margin-left:15%;
+			margin-top:45%;
 
-		table-layout:fixed;
-	}
-	#MakeDivBlender {
-		visibility:hidden;
-	}
-	#MakeDivInfo {
-		visibility:hidden;
-		position:absolute;
-		top:-70px;
-		left:50px;
-	}
-	#MakeDivBlender > table {
-		width:100%;
-		height:100%;
+			table-layout:fixed;
+		}
+		#MakeDivBlender {
+			visibility:hidden;
+		}
+		#MakeDivInfo {
+			visibility:hidden;
+			position:absolute;
+			top:-70px;
+			left:50px;
+		}
+		#MakeDivBlender > table {
+			width:100%;
+			height:100%;
 
-		border:1px solid black;
-	}
-	#MakeDivBlender > table > tbody > tr {
-		width:100%;
-		height:20%;
-		overflow: hidden;
-	}
-	.MakeRow {
-		width:20%;
-		height:100%;
-	    overflow: hidden;
-	    display: inline-block;
-	    white-space: nowrap;
-	}
-	#BLEND {
-		margin-top:3%;
-		margin-left:82%;
-	}
-	#netaDiv {
-		position:absolute;
-		left:30px;
-	}
-	#gameDiv {
-		margin-top:50px;
-		margin-left:0px;
-	}
-	#jokeDiv {
-		/*border:1px solid black;*/
-		margin-top:4%;
-		width:150px;
-		height:150px;
-	}
-	#characterDiv {
-		margin-top:-120px;
-		margin-left:130px;
-	}
-	#character {
-		margin-left:50px;
-	}
-	#slotmachine {
-		margin-left:100px;
-		/*border:1px solid black;*/
-		width:200px;
-		height:150px;
-	}
-	#statusDiv {
-		margin-top: 60px;
-		margin-left: 40%;
-		/*margin-left:180px;*/
-	}
-	#DELETE, #SELL {
-		visibility: hidden;
-	}
-	#typeDiv {
-		float:left;
-	}
-	#ObjectDiv {
-		float:left;
-		margin-left:20px;
-	}
+			border:1px solid black;
+		}
+		.Neta {
+			width:100%;
+			height:100%;
+		    overflow: hidden;
+		    border:1px solid black;
+		}
+		#MakeDivBlender > table > tbody > tr {
+			width:100%;
+			height:20%;
+			overflow: hidden;
+		}
+		.MakeRow {
+			width:20%;
+			height:100%;
+		    overflow: hidden;
+		    display: inline-block;
+		    white-space: nowrap;
+		}
+		#BLEND {
+			margin-top:3%;
+			margin-left:82%;
+		}
+		#netaDiv {
+			position:absolute;
+			left:30px;
+		}
+		#gameDiv {
+			margin-top:50px;
+			margin-left:0px;
+		}
+		#jokeDiv {
+			position: absolute;
+			left: 0px;
 
-	#ResultDiv {
-		position:absolute;
-		min-width:240px;
-		min-height:300px;
+			/*border:1px solid black;*/
+			/*width:150px;*/
+			/*height:150px;*/
+		}
+		#jokeDiv > ul {
+			list-style: none;
+		}
+		#status1 {
+			float:left;
+		}
+		#status2 {
+			float:right;
+		}
+		#characterDiv {
+			margin-top:-120px;
+			margin-left:130px;
+		}
+		#character {
+			margin-left:50px;
+		}
+		#slotmachine {
+			margin-left:100px;
+			/*border:1px solid black;*/
+			width:200px;
+			height:150px;
+		}
+		#statusDiv {
+			/*margin-top: 60px;*/
+			margin-left: 40%;
+			/*margin-left:180px;*/
+		}
+		#DELETE, #SELL {
+			visibility: hidden;
+		}
+		#typeDiv {
+			float:left;
+		}
+		#ObjectDiv {
+			float:left;
+			margin-left:20px;
+		}
 
-		left:115px;
-		top:80px;
+		#ResultDiv {
+			position:absolute;
+			min-width:240px;
+			min-height:300px;
 
-		border:1px solid black;
-		visibility: hidden;
-		display:none;
-	}
-	#ResultDiv > div {
-		position:relative;
-		width:100%
-		height:100%;
-	}
-	#JokeIcon {
-		position:relative;
-		float:left;
-		width:70px;
-		height:70px;
+			left:85px;
+			top:160px;
 
-		margin-top:30px;
-		margin-left:30px;
-
-	}
-	#BigInfoDiv {
-		position:relative;
+			border:1px solid black;
+			visibility: hidden;
+			display:none;
+		}
+		#ResultDiv > div {
+			position:relative;
+			width:100%
+			height:100%;
+		}
+		#SLOT {
+			margin-left:50px;
+		}
 		
-		float:right;
+		#JokeIcon {
+			position:relative;
+			float:left;
+			width:70px;
+			height:70px;
 
-		margin-top:30px;
-		margin-right:20px;
-	}
-	#JokeName {
-		position:relative;
+			margin-top:30px;
+			margin-left:30px;
 
-		top:10px;
-		margin-right:30px;
-	}
-	#JokeTier {
-		position:relative;
+		}
+		#BigInfoDiv {
+			position:relative;
+			
+			float:right;
 
-		top:20px;
-		margin-right:20px;
-	}
-	#SmallInfoDiv {
-		position:relative;
-		
-		left:30px;
-		top:60px;
-	}
-	#JokeInfo {
-		position:relative;
-		float:left;
+			margin-top:30px;
+			margin-right:20px;
+		}
+		#JokeName {
+			position:relative;
 
-		margin-top:10px;
-		margin-right:30px;
-	}
-	#JokeRecipe {
-		position:relative;
-		float:left;
+			top:10px;
+			margin-right:30px;
+		}
+		#JokeTier {
+			position:relative;
 
-		margin-top:10px;
-		margin-right:30px;
-	}
-	#JokeReactionDiv {
-		position:relative;
-		float:left;
+			top:20px;
+			margin-right:20px;
+		}
+		#SmallInfoDiv {
+			position:relative;
+			
+			left:30px;
+			top:60px;
+		}
+		#JokeInfo {
+			position:relative;
+			float:left;
 
-		top:40px;
-		left:-83px;
-		/*margin-top:10px;*/
-		/*margin-right:30px;	*/
-	}
+			margin-top:10px;
+			margin-right:30px;
+		}
+		#JokeRecipe {
+			position:relative;
+			float:left;
+
+			margin-top:10px;
+			margin-right:30px;
+		}
+		#JokeReactionDiv {
+			position:relative;
+			float:left;
+
+			top:40px;
+			left:-83px;
+			/*margin-top:10px;*/
+			/*margin-right:30px;	*/
+		}
+
+		#moneySpan {
+			margin-top:40px;
+			margin-left:50px;
+		}
+
+		#mapCanvas {
+			position:absolute;
+			left:5%;
+			bottom:5%;
+
+			/*width:90%;
+			height:60%;*/
+
+			border:1px solid green;
+		}
 	</STYLE>
 </head>
 <body>
 	<div class="row">
 		<div id="MakeDiv">
+			<span id="BlenderId"></span>
 			<div id="MakeDivBlender">
-				<table border="1">
+				<table border="1" style="table-layout:fixed;">
 					<tr><td class="MakeRow"></td><td class="MakeRow"></td><td class="MakeRow"></td><td class="MakeRow"></td><td class="MakeRow"></td></tr>
 				</table>
 				<!-- <button id="BLEND" class="btn btn-primary"> 섞기!</button> -->
@@ -201,80 +239,56 @@
 			<table class="table">
 				<tr>
 					<td>
-						<div id="C1Div" class="Neta"><span>소재1</span></div>
+						<div id="C1Div" class="Neta"><span> </span></div>
 					</td>
 					<td>
-						<div id="C2Div" class="Neta"><span>소재2</span></div>
+						<div id="C2Div" class="Neta"><span> </span></div>
 					</td>
 					<td>
-						<div id="C3Div" class="Neta"><span>소재3</span></div>
+						<div id="C3Div" class="Neta"><span> </span></div>
 					</td>
 					<td>
-						<div id="C4Div" class="Neta"><span>소재4</span></div>
-					</td>
-				</tr>
-				<tr>
-					<td>
-						<div id="C5Div" class="Neta"><span>소재5</span></div>
-					</td>
-					<td>
-						<div id="C6Div" class="Neta"><span>소재6</span></div>
-					</td>
-					<td>
-						<div id="C7Div" class="Neta"><span>소재7</span></div>
-					</td>
-					<td>
-						<div id="C8Div" class="Neta"><span>소재8</span></div>
+						<div id="C4Div" class="Neta"><span> </span></div>
 					</td>
 				</tr>
 			</table>
 
+			<div id="statusDiv">
+				<!-- <div id="netaDiv"></div> -->
+
+				<div id="jokeDiv">
+					<ul id="status1">
+						<li>인구 : 0</li>
+						<li>문화 : 0</li>
+						<li>전투 : 0</li>
+					</ul>
+					<ul id="status2">
+						<li>기술 : 0</li>
+						<li>종교 : 0</li>
+						<li>경제 : 0</li>
+						<li>행복도 : 0</li>
+					</ul>
+				</div>
+				
+				<button class="btn btn-primary statusDivBtn" id="SLOT">창작!</button>
+				<button class="btn btn-warning statusDivBtn" id="DELETE">버리기</button>
+				<button class="btn btn-primary statusDivBtn" id="SELL">믹스!</button>
+				</br>
+
+				<span id="moneySpan"></span>
+
+			</div>
 		</div>
 
 		<div id="gameDiv" class="col-md-3 col-lg-3">
+
 			<div id="slotmachine" class="row"></div>
-			<div id="jokeDiv"></div>
+
 			<div id="characterDiv">
 				<!-- <img id="character" src="civ1_char.png" /> -->
 			</div>
 		</div>
-		<div id="statusDiv">
-			<div id="concentRate"><span>집중력 : </span><span id="concVal">100</span></div></br>
-			<div id="netaDiv"></div>
 
-			<div class="dropdown dropup" id="TypeDiv">
-				<button class="btn btn-default dropdown-toggle " type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
-					타입
-					<span class="caret"></span>
-				</button>
-				<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
-					<li role="presentation"><a role="menuitem" tabindex="-1" href="#">콩트 개그</a></li>
-					<li role="presentation"><a role="menuitem" tabindex="-1" href="#">스탠딩 개그</a></li>
-					<li role="presentation"><a role="menuitem" tabindex="-1" href="#">인쇄용 개그</a></li>
-					<li role="presentation"><a role="menuitem" tabindex="-1" href="#">아저씨 개그</a></li>
-				</ul>
-			</div>
-
-			<div class="dropdown dropup" id="ObjectDiv">
-				<button class="btn btn-default dropdown-toggle " type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
-					주제
-					<span class="caret"></span>
-				</button>
-				<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
-					<li role="presentation"><a role="menuitem" tabindex="-1" href="#">풍자</a></li>
-					<li role="presentation"><a role="menuitem" tabindex="-1" href="#">말장난</a></li>
-					<li role="presentation"><a role="menuitem" tabindex="-1" href="#">슬랩스틱</a></li>
-					<li role="presentation"><a role="menuitem" tabindex="-1" href="#">바보짓</a></li>
-				</ul>
-			</div>
-			</br>
-			</br>
-			<!-- <button class="btn btn-primary" id="SLOT">창작!</button> -->
-			<button class="btn btn-warning" id="DELETE">버리기</button>
-			<button class="btn btn-primary" id="SELL">믹스!</button>
-		</div>
-
-		
 	</div>
 
 	<div id="ResultDiv" class="row">
@@ -287,13 +301,11 @@
 			<div id="SmallInfoDiv" class="col-md-5">
 				<span id="JokeInfo">이건 안된다.... 매장당할꺼야.</span></br>
 				<span id="JokeRecipe">1,2,3,4,5</span>
-				<div id="JokeReactionDiv">
-					test
-					<img id="JokeReactonBaseImage" />
-				</div>
 			</div>
 		</div>
 	</div>
+
+	<canvas id="mapCanvas">Unable to game</canvas>
 
 </body>
 </html>

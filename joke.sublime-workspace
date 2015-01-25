@@ -1,0 +1,921 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"en",
+				"enemyMovableTe"
+			],
+			[
+				"player",
+				"playerMovableTe"
+			],
+			[
+				"play",
+				"playerMovableTe"
+			],
+			[
+				"enem",
+				"enemyTeratory"
+			],
+			[
+				"n",
+				"netaIndex"
+			],
+			[
+				"charac",
+				"characterGrow"
+			],
+			[
+				"MMIM",
+				"MMIMySQL"
+			],
+			[
+				"chan",
+				"changedIds"
+			],
+			[
+				"start",
+				"startTime"
+			],
+			[
+				"multi",
+				"multiprocessing"
+			],
+			[
+				"calendar",
+				"calendarId"
+			],
+			[
+				"reqT",
+				"req_time"
+			],
+			[
+				"get",
+				"GetMessage"
+			],
+			[
+				"user",
+				"userId"
+			],
+			[
+				"send",
+				"SendMessage"
+			],
+			[
+				"admin",
+				"adminEmail"
+			],
+			[
+				"g",
+				"gmail"
+			],
+			[
+				"cal",
+				"calendarId"
+			],
+			[
+				"ev",
+				"eventList"
+			],
+			[
+				"auth",
+				"authUrl"
+			],
+			[
+				"session_",
+				"session_unset"
+			],
+			[
+				"last_",
+				"last_resource_update"
+			],
+			[
+				"check",
+				"check_effect_condition"
+			],
+			[
+				"mysql_row",
+				"mysql_num_rows"
+			],
+			[
+				"print_",
+				"print_building_infos"
+			],
+			[
+				"store",
+				"store_metal"
+			],
+			[
+				"planet",
+				"planet"
+			],
+			[
+				"resource",
+				"last_resource_update"
+			],
+			[
+				"_game",
+				"_gameDataPid"
+			],
+			[
+				"mysql_fetch",
+				"mysql_fetch_row"
+			],
+			[
+				"mysql_fec",
+				"mysql_fetch_assoc"
+			],
+			[
+				"deving",
+				"developing"
+			],
+			[
+				"_gae",
+				"_gameDataPid"
+			],
+			[
+				"build",
+				"buildData"
+			],
+			[
+				"plan",
+				"planetNum"
+			],
+			[
+				"buil",
+				"buildData"
+			],
+			[
+				"_Get",
+				"_GETS"
+			],
+			[
+				"modal",
+				"modalInit"
+			],
+			[
+				"tes",
+				"tesTranslate"
+			],
+			[
+				"act",
+				"activeClass"
+			],
+			[
+				"Log",
+				"LogNavigation"
+			],
+			[
+				"progress",
+				"progressNumber"
+			],
+			[
+				"prog",
+				"progressCompleteness"
+			],
+			[
+				"progre",
+				"progressCompleteness"
+			],
+			[
+				"pro",
+				"progressName"
+			],
+			[
+				"progres",
+				"progressName"
+			],
+			[
+				"text",
+				"textdata"
+			],
+			[
+				"coun",
+				"countries"
+			],
+			[
+				"ret",
+				"retData"
+			],
+			[
+				"count",
+				"country1"
+			],
+			[
+				"__get",
+				"__getattr__"
+			],
+			[
+				"di",
+				"__dict__"
+			],
+			[
+				"module",
+				"moduleId"
+			],
+			[
+				"import",
+				"importlib"
+			],
+			[
+				"test",
+				"testss"
+			],
+			[
+				"pr",
+				"temp_prompt"
+			],
+			[
+				"E",
+				"Engine"
+			],
+			[
+				"_data",
+				"_database"
+			],
+			[
+				"nex",
+				"nextFuncs"
+			],
+			[
+				"spl",
+				"split_func"
+			],
+			[
+				"split",
+				"split_key"
+			],
+			[
+				"parse",
+				"parseFlag"
+			],
+			[
+				"room",
+				"roomNumber"
+			],
+			[
+				"flag",
+				"_flag"
+			],
+			[
+				"func",
+				"pFunc"
+			],
+			[
+				"print",
+				"printu"
+			],
+			[
+				"pl",
+				"playerdata"
+			],
+			[
+				"flag_map",
+				"flag_map_search_8"
+			],
+			[
+				"flag_this",
+				"flag_map_thisroom"
+			],
+			[
+				"stri",
+				"stringPrint"
+			],
+			[
+				"tresh",
+				"treshTiles"
+			],
+			[
+				"this",
+				"thisStepPlayerNum"
+			],
+			[
+				"retT",
+				"retType"
+			],
+			[
+				"admit",
+				"admitNewTile"
+			],
+			[
+				"yard",
+				"yardNum"
+			],
+			[
+				"kertz",
+				"kertzsTileNum"
+			],
+			[
+				"shyuntz",
+				"shyuntzHand"
+			],
+			[
+				"shy",
+				"shyuntzs"
+			],
+			[
+				"shyunt",
+				"shyuntzHand"
+			],
+			[
+				"sh",
+				"shyuntzHand"
+			],
+			[
+				"temp",
+				"tempHand"
+			],
+			[
+				"thisT",
+				"thisTimeHands"
+			],
+			[
+				"checkSh",
+				"checkShyuntz2"
+			],
+			[
+				"inut",
+				"inputForTest"
+			],
+			[
+				"spec",
+				"pSpec"
+			],
+			[
+				"backgr",
+				"background-size"
+			],
+			[
+				"resour",
+				"resourcesDelta"
+			],
+			[
+				"return",
+				"_returnKertz"
+			],
+			[
+				"elem",
+				"elements"
+			],
+			[
+				"ele",
+				"elements"
+			],
+			[
+				"Mah",
+				"MahjongTile"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "main.html",
+			"settings":
+			{
+				"buffer_size": 5473,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "var iNetas = []\nvar selectNeta = null\nvar blenderIndex = 0, blenderBox = [null, null, null, null];\n\nvar map = []\nvar playerTeratory = [], enemyTeratory = []\nvar playerMovableTe = [], enemyMovableTe = []\n\nvar infos = [\n	\"......\",\n	\"음, 발표했다간 몰매맞을듯한 내용이다.\",\n	\"쫌 괜찮은거 같다. 인터넷에 익명으로 올린다면.\",\n	\"흠. 동네 복덕방에서 읽어볼만한 수준인거 같다.\",\n	\"TV에 나가도 안티는 안생길것 같다.\",\n	\"시학 2권이 여기있구나....\"\n]\n\nvar slotMode = false;\nvar joke = null;\n\nvar map = []\nvar jokes = []\nvar netaIndex = 0, netaCategory = [\"인구\", \"문화\", \"전투\", \"기술\", \"경제\"]\nvar money = 10000, godPower = 0\n\nvar upgrades = {\n	\"\":0\n}\nvar ctx = null;\n\nvar country = {\n	\"인구\":{\"value\":100,\"vector\":0,\"upgrade\":0},\n	\"문화\":{\"value\":0,\"vector\":0,\"upgrade\":0},\n	\"전투\":{\"value\":0,\"vector\":0,\"upgrade\":0},\n	\"기술\":{\"value\":0,\"vector\":0,\"upgrade\":0},\n	\"종교\":{\"value\":0,\"vector\":0,\"upgrade\":0},\n	\"경제\":{\"value\":0,\"vector\":0,\"upgrade\":0},\n	\"행복\":{\"value\":0,\"vector\":1,\"upgrade\":0},\n	_time:0,\n	property:[0,0],\n	indexOf:function(e) {\n		return [\"인구\", \"문화\", \"전투\", \"기술\", \"종교\", \"경제\"].indexOf(e)\n	},\n	updateCheck:function() {\n		var date = new Date();\n		var n = date.getTime();\n		if(this._time+1000 <= n) {\n			this._time = n\n			return true\n		}\n	}\n}\n\nMath.rad = function(e) {\n	return Math.PI * e / 180\n}\n\nfunction clone(obj) {\n    if (null == obj || \"object\" != typeof obj) return obj;\n    var copy = obj.constructor(obj.category);\n    for (var attr in obj) {\n        if (obj.hasOwnProperty(attr)) copy[attr] = obj[attr];\n    }\n    return copy;\n}\n\nfunction Tile(x, y, type, owner) {\n	this.x = x, this.y = y\n	this.type = type, this.owner = owner\n\n	return this\n}\n\nfunction MakeNeta(type, subject, tile) {\n	if(type != \"undefined\") {\n		this.type = type;\n	} else {\n		this.type = \"테스트 타입\"\n	}\n	this.sub = subject\n	this.funSize = Math.floor(Math.random()*10%10);\n	this.tile = tile\n\n	return this\n}\n\nfunction Joke(jc) {\n	this.createTime = new Date().getTime();\n	this.name = \"농담의 이름이다.\"\n	this.tier = \"12등급 썰렁함\"\n	this.category = jc\n\n	this.quality = (function(jc) {\n		sum = 0\n		for(var i in jc)\n			sum += jc[i][2].funSize\n		return sum;\n	}(jc));\n\n	this.categoryType = []\n\n	num = this.quality\n	for(var i=0; i<5;i++) {\n		// _num = Math.floor(Math.random()*100%100)\n		_num = num / 5\n		this.categoryType.push(_num)\n	}\n	// console.log(this.quality, Math.floor(this.quality / 20 % 5))\n	this.targetAge = (Math.floor(Math.random()*70/10)*10+10)+\"대\"\n	this.info = infos[Math.floor(this.quality / 20 % 5)]\n\n	return this\n}\n\nfunction reset() {\n	iNetas = []\n	slotMode = false\n\n	$(\".MakeRow\").html(\"\")\n\n	$(\"#MakeDiv\").css(\"visibility\", \"hidden\")\n	$(\"#gameDiv\").css(\"visibility\", \"visible\")\n\n	$(\"#ObjectDiv>button\").text(\"주제\")\n	$(\"#TypeDiv>button\").text(\"타입\")\n}\n\nfunction refresh() {\n\n	for(var i in country) {\n		_ind = country.indexOf(i)\n		var statusInd = (function(e) {\n			// console.log(e)\n			if(e<=3)\n				return 1\n			else\n				return 2\n		}(_ind+1));\n		\n		var childInd = (function(e) {\n			// console.log(e)\n			if(4<=e)\n				return e-3\n			else\n				return e\n		}(_ind+1));\n\n		// console.log(statusInd, childInd)\n\n		$(\"#status\"+statusInd+\">li\"+\":nth-child(\"+childInd+\")\").text(i+\" : \"+Math.floor(country[i][\"value\"]))\n	}\n\n	$(\"#moneySpan\").text(\"헌금 : \"+money)\n}\n\nfunction _drawHexagon(ctx, x, y, radius) {\n	ctx.beginPath();\n	for(var i=0;i<7;i++){\n	    var angle = 2 * 3.141592 / 6 * (i+0.5)\n\n	    _x = x + radius * Math.cos(angle)\n	    _y = y + radius * Math.sin(angle)\n	    // console.log(i,angle,_x,_y)\n	    if(i == 0)\n	        ctx.moveTo(_x, _y)\n	    else\n	        ctx.lineTo(_x, _y)\n	    ctx.fill()\n	    ctx.stroke()\n	}\n}\n\nfunction DrawHexagon(ctx, x, y, type) {\n	var typeColor = {\n		\"player\":\"#00CCCC\",\n		\"playerMovable\":\"#007777\",\n		\"enemy\":\"#FF0000\",\n		\"enemyMovableTe\":\"#770000\",\n		\"none\":\"rgba(0, 0, 0, 0)\"\n	}\n	var radius = 30\n	var _xOde = Math.cos(Math.rad(30))*radius\n	var _x = (_xOde*2*x)\n	var _y = (Math.sin(Math.rad(30))+1)*radius*y + 30\n	var ode = (y%2)*_xOde\n\n	ctx.fillStyle = typeColor[type]\n	_drawHexagon(ctx, _x+ode, _y, 30)\n}\n\nfunction realloc(tile, index, teratory, mTeratory) {\n	for(var i in index) {\n		var _x = tile.x + index[i][0], _y = tile.y+index[i][1]\n\n		if(0<=_x && _x<9 && 0<=_y && _y<6) {\n			// console.log(_x,_y)\n			var ok = true\n\n			for(var e in mTeratory) {\n				var _tile = mTeratory[e]\n				if(_tile.x == _x && _tile.y == _y)\n					ok = false\n			}\n			for(var e in teratory) {\n				var _tile = teratory[e]\n				if(_tile.x == _x && _tile.y == _y)\n					ok = false\n			}\n\n			if(ok)\n				mTeratory.push(map[_y][_x])\n		}\n	}\n}\nfunction occupy(tile, owner) {\n	var teratory = {\n		\"player\":playerTeratory,\n		\"enemy\":enemyTeratory\n	}\n	var mTeratory = {\n		\"player\":playerMovableTe,\n		\"enemy\":enemyMovableTe	\n	}\n	var index = [\n		[[-1,-1], [0,-1], [1,0], [0,1], [-1,1], [-1,0]], \n		[[0,-1], [1,-1], [1,0], [1,1], [0,1], [-1,0]]\n	][tile.y%2]\n\n\n	for(var i in teratory) {\n		if(i != owner) {\n			var enemyTe = teratory[i].indexOf(tile)\n			if(enemyTe != -1) {\n				teratory[i].splice(enemyTe,1)\n				// mTeratory[i].\n				mTeratory[i].length = 0\n				for(var e in teratory[i])\n					realloc(teratory[i][e], index, teratory[i], mTeratory[i])\n			}\n		}\n	}\n\n	// console.log(index)\n	tile.owner = owner\n	teratory[owner].push(tile)\n\n	for(var i in mTeratory[owner]) {\n		var _tile = mTeratory[owner][i]\n		if(_tile.x == tile.x && _tile.y == tile.y) {\n			// console.log(\"remove\",tile.x, tile.y, _tile.x, _tile.y, i)\n			mTeratory[owner].splice(i,1)\n		}\n	}\n	realloc(tile, index, teratory[owner], mTeratory[owner])\n}\n\nfunction DrawBubble(ctx, string, tier, x, y) {\n	var index = [\n		[[-1,-1], [0,-1], [1,0], [0,1], [-1,1], [-1,0]], \n		[[0,-1], [1,-1], [1,0], [1,1], [0,1], [-1,0]]\n	][tile.y%2]\n\n	var radius = 30\n	var _xOde = Math.cos(Math.rad(30))*radius\n	var _x = (_xOde*2*x)\n	var _y = (Math.sin(Math.rad(30))+1)*radius*y + 30\n	var ode = (y%2)*_xOde\n\n	ctx.fillStyle = \"black\"\n	ctx.fillText(string, _x+ode-string.length*6, _y)\n	ctx.fillText(tier, _x+ode-4 , _y+15)\n}\n\nfunction refreshScreen() {\n	\n\n	for(var i in playerMovableTe) {\n		var _tile = playerMovableTe[i]\n		DrawHexagon(ctx, _tile.x, _tile.y, \"playerMovable\")\n	}\n\n	for(var i in enemyMovableTe) {\n		var _tile = enemyMovableTe[i]\n		DrawHexagon(ctx, _tile.x, _tile.y, \"enemyMovableTe\")\n	}\n\n	for(var i in map) {\n		for(var e in map[i]) {\n			tile = map[i][e]\n			DrawHexagon(ctx, tile.x, tile.y, tile.owner)\n		}\n	}\n\n	var neta = blenderBox[netaIndex-1]\n	if(neta) {\n		DrawBubble(ctx, neta.type, neta.funSize, neta.tile.x, neta.tile.y)\n	}\n	\n}\n\nfunction init() {\n\n	var width=$(document).width(), height=$(document).height()\n	$(\"#mapCanvas\").attr(\"width\",width*0.87+\"px\").attr(\"height\",height*0.6+\"px\")\n\n	ctx = $(\"#mapCanvas\")[0].getContext('2d')\n	ctx.font=\"14px Verdana\";\n	// ctx.fillText(\"Hello World!\",10,30);\n	// drawHexagon(ctx, 30, 30, 30)\n\n	for(var e=0;e<6;e++) {\n		var _map = []\n		for(var i=0;i<9;i++){\n			_tile = new Tile(i, e, \"land\", \"none\")\n			_map.push(_tile)\n		}\n		map.push(_map)\n	}\n	\n	occupy(map[0][1], \"player\")\n	occupy(map[5][7], \"enemy\")\n\n	console.log(playerMovableTe)\n\n	refreshScreen()\n\n	$(\".Neta\").click(function(e) {\n		if(slotMode && blenderIndex < 5) {\n			// console.log($(this).parent().index(), blenderBox[$(this).index()])\n			// console.log(blenderBox)\n			var _selectNeta = blenderBox[$(this).parent().index()]\n			var thisBox = $(\".MakeRow:eq(\"+blenderIndex+\")\")\n\n			iNetas.push([$(thisBox).index()+1, 0, _selectNeta])\n\n			$(thisBox).append($(\"<span>\"+_selectNeta.type+\"</span></br><span>재미 : \"+_selectNeta.funSize+\"</span>\"))\n			$($(this).children()[0]).text(\"\")\n			blenderIndex += 1\n		}\n	})\n\n	var slot = function() {\n		if(!slotMode) {\n			\n			$(\"#MakeDivBlender\").css(\"visibility\", \"visible\")\n			$(\"#MakeDivInfo\").css(\"visibility\", \"hidden\")\n			// $(\"#gameDiv\").css(\"visibility\", \"hidden\")\n\n			$(\"#DELETE\").css(\"visibility\", \"visible\")\n			$(\"#SELL\").css(\"visibility\", \"visible\")	\n\n			refresh()\n\n			slotMode = true\n		}\n	}\n\n	$(\"#SLOT\").click(function() {\n		slot()\n		$(this).css(\"visibility\", \"hidden\")\n	})\n\n	$(\"#SELL\").click(function() {\n		if(slotMode && 1 <= blenderIndex) {\n			$(\"#MakeDivBlender\").css(\"visibility\", \"hidden\")\n			$(\"#MakeDivInfo\").css(\"visibility\", \"visible\")\n			$(\"#SELL\").text(\"발표!\")\n			// console.log(\"lenderIndex\",blenderIndex)\n				\n			$(\"#MakeDivInfo\").html(\"\")\n			\n			randomCategory = []\n			categoryNum = 0\n			blenderIndex = 0\n\n			// console.log(\"category\", categoryNum)\n			divString = \"\"\n			joke = new Joke(iNetas);\n\n			var netas = [\n				[\"인구\",0],\n				[\"문화\",0],\n				[\"전투\",0],\n				[\"기술\",0],\n				[\"종교\",0],\n				[\"경제\",0]\n			]\n			for(var i in iNetas) {\n				// console.log(iNetas[i])\n				// divString += \"<div class=\\\"col-md-3\\\">\"+iNetas[i][2].type+\"</div>\"\n				var _neta = iNetas[i][2]\n				var _ind = netaCategory.indexOf(_neta.type)\n				netas[_ind][1] += _neta.funSize\n				// divString += _neta.type + \" \" + _neta.sub\n			}\n			console.log(netas)\n			for(var i in netas) {\n				var e = netas[i]\n				if(e[1] != 0) {\n					divString += e[0] + \" \" + e[1]\n					console.log(e[0], e[1])\n				}\n			}\n\n			if(divString != \"\") {\n				$(\"#ResultDiv\")\n					.css(\"visibility\", \"visible\")\n					.css(\"display\",\"inline\")\n\n				$(\"#JokeName\").text(joke.name)\n				$(\"#JokeTier\").text(joke.tier)\n				$(\"#JokeRecipe\").text(divString)\n				$(\"#JokeInfo\").text(joke.info)\n				$(\"#JokeReactionDiv\").text(joke.targetAge)\n			}\n			refresh()\n			reset()\n		} else {\n			if(joke != null){\n				jokes.push(clone(joke))\n				\n				for(var i in joke.category) {\n					var _i = joke.category[i]\n					// console.log(_i[2], _i[2].funSize)\n					var _ind = netaCategory.indexOf(_i[2].type)\n					country[_i[2].type][\"vector\"] += _i[2].funSize * 0.1\n				}\n\n				console.log(country)\n				refresh()\n				reset()\n\n				$(\"#ResultDiv\").css(\"visibility\", \"hidden\")\n\n				$(\"#ResultDiv\")\n					.css(\"visibility\", \"hidden\")\n					.css(\"display\",\"none\")\n\n				$(\"#MakeDivInfo\").css(\"visibility\",\"hidden\")\n\n				$(\"#DELETE\").css(\"visibility\", \"hidden\")\n				$(\"#SELL\").css(\"visibility\", \"hidden\").text(\"믹스!\")\n\n				$(\"#SLOT\").css(\"visibility\",\"visible\")\n			}\n		}\n	})\n\n	$(\"#DELETE\").click(function() {\n		refresh()\n		reset()\n\n		$(\"#ResultDiv\").css(\"visibility\", \"hidden\")\n		$(\"#MakeDivBlender\").css(\"visibility\", \"hidden\")\n		$(\"#MakeDivInfo\").css(\"visibility\",\"hidden\")\n\n		$(\"#ObjectDiv\").css(\"visibility\", \"visible\")\n		$(\"#TypeDiv\").css(\"visibility\", \"visible\")\n\n		$(\"#DELETE\").css(\"visibility\", \"hidden\")\n		$(\"#SELL\").css(\"visibility\", \"hidden\").text(\"믹스!\")\n\n		$(\"#SLOT\").css(\"visibility\",\"visible\")\n	})\n}\n\nfunction newNeta() {\n	netaIndex += 1\n	if(4 < netaIndex) {\n		netaIndex = 1\n	}\n\n	var catInd = Math.floor(Math.random()*5)\n	var cat = netaCategory[catInd]\n\n	var upgrade = country[cat].upgrade\n	var sub = Math.floor(Math.random()*upgrade)\n\n	var _tile = playerTeratory[Math.floor(Math.random()*playerTeratory.length)]\n\n	blenderBox[netaIndex-1] = new MakeNeta(cat, sub, _tile)\n	// $(\"#C\"+netaIndex+\"Div>span\").text(cat+\" \"+sub)\n\n	// console.log($(\"#C\"+netaIndex+\"Div>span\").text(), netaIndex)\n	\n	// console.log(netaCategory[cat], sub)\n	\n}\n\nfunction calcCountry() {\n	for(var i in country) {\n		country[i][\"value\"] += country[i].vector\n	}\n}\n\nfunction timeout() {\n	var up = country.updateCheck()\n	if(up) {\n		newNeta()\n		var length = playerMovableTe.length\n		if(0<length) {\n			var _tile = playerMovableTe[Math.floor(Math.random()*length)]\n			occupy(_tile,\"player\")\n			// refreshScreen()\n		}\n		length = enemyMovableTe.length\n		if(0<length) {\n			var _tile = enemyMovableTe[Math.floor(Math.random()*length)]\n			occupy(_tile,\"enemy\")\n		}\n\n		refreshScreen()\n	}\n		\n\n	calcCountry()\n	refresh()\n	// console.log(country)\n\n	setTimeout(timeout, 30)\n}\n\n// setInterval(newNeta,500)\nsetTimeout(timeout, 30)\nconsole.log(country)\n$(document).ready(init)\n",
+			"file": "joke.js",
+			"file_size": 11809,
+			"file_write_time": 1422101921000000,
+			"settings":
+			{
+				"buffer_size": 11498,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/User/python2.7.sublime-build",
+	"command_palette":
+	{
+		"height": 247.0,
+		"selected_items":
+		[
+			[
+				"pcin",
+				"Package Control: Install Package"
+			],
+			[
+				"pc:di",
+				"Package Control: Disable Package"
+			],
+			[
+				"pc:d",
+				"Package Control: Disable Package"
+			],
+			[
+				"paconinst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"pcodi",
+				"Package Control: Disable Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Disable Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"package install",
+				"Package Control: Install Package"
+			],
+			[
+				"package instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/minuk-hwang/Desktop/Season.17/(The Simpsons)S17E04.Treehouse of Horror XVI.smi",
+		"/Users/minuk-hwang/Desktop/Season.17/(The Simpsons)S17E01.Bonfire of the Manatees.smi",
+		"/Users/minuk-hwang/Documents/html/joke/joke.js",
+		"/Users/minuk-hwang/Desktop/Season.16/(The Simpsons)S16E20.Home Away From Homer.smi",
+		"/Users/minuk-hwang/Desktop/Season.16/(The Simpsons)S16E17.The Heartbroke Kid.smi",
+		"/Users/minuk-hwang/Documents/Pythons/MMIM/serverPy/Account.py",
+		"/Users/minuk-hwang/Documents/Pythons/MMIM/serverPy/serviceAccount.py",
+		"/Users/minuk-hwang/Documents/html/MMIM/webClient/sql.php",
+		"/Users/minuk-hwang/Documents/Pythons/MMIM/serverPy/event_sample.json",
+		"/Users/minuk-hwang/Documents/Pythons/MMIM/serverPy/uploadSample.json",
+		"/Users/minuk-hwang/Documents/games/Messanger/Messanger/Resource/newTutorial.script",
+		"/Users/minuk-hwang/Documents/games/Messanger/Messanger/Resource/characters.script",
+		"/Users/minuk-hwang/Documents/games/Messanger/Messanger/Resource/ChattingRooms.json",
+		"/Users/minuk-hwang/Documents/html/ugame/serverside/SQL.php",
+		"/Users/minuk-hwang/Documents/Pythons/MMIM/serverPy/sftp-config.json",
+		"/Users/minuk-hwang/Documents/Pythons/MMIM/serverPy/quickStart.py",
+		"/Users/minuk-hwang/Documents/Pythons/MMIM/serverPy/Api_client_secret.json",
+		"/Users/minuk-hwang/Documents/SQL 10장",
+		"/Users/minuk-hwang/Documents/Pythons/MMIM/serverPy/build/bdist.macosx-10.9-intel/egg/googleapiclient/discovery.py",
+		"/Users/minuk-hwang/Documents/Pythons/test/mp_test.py",
+		"/Users/minuk-hwang/Documents/Pythons/MMIM/serverPy/gmail.storage",
+		"/Users/minuk-hwang/Documents/C/circleA/circleA/main.c",
+		"/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/multiprocessing/pool.py",
+		"/Users/minuk-hwang/Documents/html/MMIM/webClient/singin.php",
+		"/Users/minuk-hwang/Documents/Pythons/gtd/server/checker.py",
+		"/Users/minuk-hwang/Documents/Pythons/MMIM/serverPy/users.json",
+		"/Users/minuk-hwang/Documents/Pythons/MMIM/serverPy/service.py",
+		"/Users/minuk-hwang/Library/Application Support/Sublime Text 2/Packages/SFTP/SFTP.sublime-settings",
+		"/Users/minuk-hwang/Documents/Pythons/MMIM/serverPy/calendars.json",
+		"/Users/minuk-hwang/Documents/Pythons/MMIM/serverPy/calendar.db",
+		"/Users/minuk-hwang/Documents/Pythons/MMIM/serverPy/old_run.py",
+		"/Users/minuk-hwang/Documents/Pythons/gtd/gtd/Task.py",
+		"/Users/minuk-hwang/Documents/Pythons/MMIM/serverPy/build/bdist.macosx-10.9-intel/egg/googleapiclient/http.py",
+		"/Users/minuk-hwang/Documents/Pythons/MMIM/serverPy/serverAuth.py",
+		"/Users/minuk-hwang/Documents/사기의 종류.json",
+		"/Library/Python/2.7/site-packages/oauth2client/old_run.py",
+		"/Users/minuk-hwang/google-cloud-sdk/lib/oauth2client/client.py",
+		"/Users/minuk-hwang/Documents/Pythons/MMIM/serverPy/newOldRun.py",
+		"/Users/minuk-hwang/Downloads/python-gflags-2.0/README",
+		"/Library/Python/2.7/site-packages/oauth2client/tools.py",
+		"/Users/minuk-hwang/Documents/Pythons/MMIM/serverPy/client.json",
+		"/Library/Python/2.7/site-packages/oauth2client/util.py",
+		"/Users/minuk-hwang/Documents/html/MMIM/webApi/src/Google/Service/Calendar.php",
+		"/Users/minuk-hwang/Documents/html/MMIM/webClient/license.html",
+		"/Users/minuk-hwang/Documents/html/MMIM/sftp-config.json",
+		"/Users/minuk-hwang/Documents/html/MMIM/webClient/sftp-config.json",
+		"/Users/minuk-hwang/Documents/Pythons/MMIM/serverPy/client_secrets.py",
+		"/Users/minuk-hwang/Documents/Pythons/MMIM/serverPy/client_secrets.json",
+		"/Users/minuk-hwang/Documents/Pythons/MMIM/serverPy/getEvent.py",
+		"/Users/minuk-hwang/Downloads/MySQL-python-1.2.5 2/README.md",
+		"/Library/Frameworks/Python.framework/Versions/3.4/lib/python3.4/site-packages/google_api_python_client-1.3.1-py3.4.egg/googleapiclient/discovery.py",
+		"/Users/minuk-hwang/Documents/Pythons/DND/New Engines/engine_test.py",
+		"/Users/minuk-hwang/Documents/Pythons/MMIM/serverPy/test.py",
+		"/Users/minuk-hwang/Documents/Pythons/MMIM/serverApi/tox.ini",
+		"/Users/minuk-hwang/Documents/Pythons/MMIM/serverApi/samples/calendar_api/calendar_sample.py",
+		"/Users/minuk-hwang/Documents/Pythons/MMIM/serverApi/samples/calendar_api/client_secrets.json",
+		"/Users/minuk-hwang/google-cloud-sdk/install.sh",
+		"/Users/minuk-hwang/Library/Application Support/Sublime Text 2/Packages/User/python2.7.sublime-build",
+		"/Users/minuk-hwang/Library/Application Support/Sublime Text 2/Packages/Python/Python.sublime-build",
+		"/Users/minuk-hwang/Documents/Pythons/MMIM/serverApi/README.md",
+		"/Users/minuk-hwang/Documents/html/MMIM/webClient/cal.html",
+		"/Users/minuk-hwang/Documents/html/MMIM/cal.html",
+		"/Users/minuk-hwang/Documents/html/IdolMaster2/pyserver/googleConnect.py",
+		"/Users/minuk-hwang/Documents/html/IdolMaster2/test.php",
+		"/Users/minuk-hwang/Documents/html/IdolMaster2/calendar_test.php",
+		"/Users/minuk-hwang/Documents/html/IdolMaster2/src/Google/Service/Calendar.php",
+		"/Users/minuk-hwang/Documents/html/IdolMaster2/cal.html",
+		"/Users/minuk-hwang/Documents/html/IdolMaster2/sftp-config.json",
+		"/Users/minuk-hwang/Documents/html/IdolMaster2/examples/idtoken.php",
+		"/Users/minuk-hwang/Documents/html/IdolMaster2/examples/simple-query.php",
+		"/Users/minuk-hwang/Documents/html/idolmaster/api/config.php",
+		"/Users/minuk-hwang/Documents/html/idolmaster/examples/index.php",
+		"/Users/minuk-hwang/Documents/html/idolmaster/examples/user-example.php",
+		"/Users/minuk-hwang/Documents/html/idolmaster/src/Google/Service/Calendar.php",
+		"/Users/minuk-hwang/Documents/html/idolmaster/api_test.php",
+		"/Users/minuk-hwang/Documents/html/idolmaster/user-example.php",
+		"/Users/minuk-hwang/Documents/html/idolmaster/examples/simple-query.php",
+		"/Users/minuk-hwang/Documents/html/idolmaster/api/auth/Google_OAuth2.php",
+		"/Users/minuk-hwang/Documents/html/idolmaster/api/contrib/Google_CalendarService.php",
+		"/Users/minuk-hwang/Documents/html/idolmaster/api/Google_Client.php",
+		"/Users/minuk-hwang/Documents/html/idolmaster/examples/calendar/simple.php",
+		"/Users/minuk-hwang/Documents/html/PC/game.html",
+		"/Users/minuk-hwang/Documents/html/idolmaster/sftp-config.json",
+		"/Users/minuk-hwang/Documents/html/ugame/serverside/resource2.php",
+		"/Users/minuk-hwang/Documents/html/ugame/serverside/buildings.php",
+		"/Users/minuk-hwang/Documents/html/ugame/serverside/resource.php",
+		"/Users/minuk-hwang/Documents/html/ugame/html/script/buildings.js",
+		"/Users/minuk-hwang/Documents/html/ugame/ugame.sublime-project",
+		"/Users/minuk-hwang/Documents/html/ugame/sftp-config.json",
+		"/Users/minuk-hwang/Documents/html/ugame/html/admin_csv.html",
+		"/Users/minuk-hwang/Documents/html/ugame/serverside/admin_csv.php",
+		"/Users/minuk-hwang/Documents/html/ugame/serverside/research2.php",
+		"/Users/minuk-hwang/Documents/html/ugame/serverside/construct.php",
+		"/Users/minuk-hwang/Downloads/ogame-opensource-853/game/planet.php",
+		"/Users/minuk-hwang/Documents/html/ugame/serverside/research.php",
+		"/Users/minuk-hwang/Documents/html/ugame/serverside/com.php",
+		"/Users/minuk-hwang/Documents/html/ugame/html/building.html",
+		"/Users/minuk-hwang/Documents/html/ugame/html/script/resource.js",
+		"/Users/minuk-hwang/Documents/html/ugame/serverside/mail.php",
+		"/Users/minuk-hwang/Documents/html/ugame/serverside/login.php",
+		"/Users/minuk-hwang/Documents/html/ugame/html/login.html",
+		"/Users/minuk-hwang/Documents/html/ugame/html/script/login.js",
+		"/Users/minuk-hwang/Documents/html/ugame/html/script/com.js",
+		"/Users/minuk-hwang/Documents/html/ugame/html/main.html",
+		"/Users/minuk-hwang/Documents/html/ugame/html/resource.html",
+		"/Users/minuk-hwang/Documents/html/ugame/serverside/gamedata.php",
+		"/Users/minuk-hwang/Documents/html/ugame/html/register.html",
+		"/Users/minuk-hwang/Documents/html/ugame/html/script/register.js",
+		"/Users/minuk-hwang/Documents/html/ugame/html/research.html",
+		"/Volumes/MAC/video/Iron Man 3 2013 720p WEB-DL x264 AAC-JYK/subs/Iron Man 3 2013 720p WEB-DL x264 AAC-JYK.smi",
+		"/Users/minuk-hwang/Documents/html/ugame/ugame.sublime-workspace",
+		"/Users/minuk-hwang/Documents/html/ugame/serverside/bluerpints.json",
+		"/Users/minuk-hwang/Documents/html/ugame/html/css/bootstrap-modal.css",
+		"/Users/minuk-hwang/Documents/html/PC/pc.appcache",
+		"/Users/minuk-hwang/Documents/html/PC/sftp-config.json",
+		"/Users/minuk-hwang/Documents/html/PC/deTest.html",
+		"/Users/minuk-hwang/Downloads/simutrans/readme.txt",
+		"/Users/minuk-hwang/Downloads/simutrans/config/simuconf.tab",
+		"/Users/minuk-hwang/Downloads/simutrans/pak96.comic/config/simuconf.tab",
+		"/Users/minuk-hwang/Documents/html/PC/scripts/ge_log.js",
+		"/Users/minuk-hwang/Documents/subtitle/7 seals.smi",
+		"/Volumes/MAC/video/The.Seventh.Seal.1957.720p.BluRay.x264-ESiR/The.Seventh.Seal.1957.720p.BluRay.x264-ESiR2.smi",
+		"/Volumes/MAC/video/The.Seventh.Seal.1957.720p.BluRay.x264-ESiR/The.Seventh.Seal.1957.720p.BluRay.x264-ESiR.smi",
+		"/Volumes/MAC/video/The.Seventh.Seal.1957.720p.BluRay.x264-ESiR/The+Seventh+Seal+%281957%29+Criterion+Collection+BR.smi",
+		"/Users/minuk-hwang/Documents/html/PC/scripts/GamEngine.js",
+		"/Users/minuk-hwang/Documents/html/PC/scripts/events.js",
+		"/Users/minuk-hwang/Documents/html/PC/TODO",
+		"/Users/minuk-hwang/Documents/html/PC/scripts/country.js"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"netaIndex",
+			"blenderBox",
+			"MakeNeta",
+			"ctx",
+			"mTetorary",
+			"jokeRea",
+			"for(var i in coun",
+			"country",
+			"concent",
+			"country",
+			"totalMass",
+			"jokeType",
+			"country",
+			"jokeDiv",
+			"jokeCategory",
+			"selectNeta",
+			"categorys",
+			"sendEmails",
+			"checkTime",
+			"print",
+			"changedId",
+			"initCalendar",
+			"database",
+			"botEventCollector",
+			"initDB",
+			":",
+			"\"",
+			"urllib2",
+			"urllib",
+			"post",
+			"Create",
+			"createMe",
+			"end",
+			"run",
+			"self.chars",
+			"Account",
+			"self.bot",
+			"1092986027377-vblam8dn6300feqi5rielc26d81241oj@developer.gserviceaccount.com",
+			"events[e]",
+			"False",
+			"True",
+			"'",
+			"u'",
+			"'",
+			"u'",
+			"setWindow",
+			"print",
+			"auth_local_web",
+			"FLAGS.",
+			"FLAGS",
+			"gflags",
+			"oauth_callback",
+			"flow",
+			"OAuth2Credentials",
+			"GoogleCredentials",
+			"AssertionCredentials",
+			"SignedJwtAssertionCredentials",
+			"code",
+			"authorization",
+			"credentials",
+			"get_credentials",
+			"flow",
+			"code",
+			"scope",
+			"authorization",
+			"authorizatin",
+			"CLIENTSECRETS_LOCATION = './Api_client_secret.json'\n	REDIRECT_URI = 'urn:ietf:wg:oauth:2.0:oob'\n	SCOPES = ['https://mail.google.com']\n\n	credentials = {}",
+			"exchange_code",
+			"get_credentials",
+			"build_service",
+			"get_authorization_url",
+			"GetCredentialsException",
+			"NotImplementedError",
+			"setAssertionCredentials",
+			"acl",
+			"setAccessRole",
+			"setAcl",
+			"http",
+			"insert",
+			"calendar",
+			"kind",
+			"Google_Service_Calendar_Event",
+			"Google_Service_Calendar_Calendar",
+			"Google_Service_Calendar",
+			"Google_Service_Calendaㄱ",
+			"Google_Service_Calendar_Events_Resource",
+			"Google_Service_Calendar_CalendarList_Resource",
+			"listcalendarlist",
+			"events",
+			"event",
+			"setUseObjects",
+			"print_r",
+			"$_SESSION[\"resources\"][$i]",
+			"_get_part_info",
+			"get_resource",
+			"researchs",
+			"researches",
+			"set_building",
+			"time",
+			"$(\"#BuildingTable > tbody\")\n		.html(\"\")\n		.append(string);",
+			"update_resource",
+			"print_r",
+			"echo",
+			"print_r",
+			"print+r",
+			"json_encode",
+			"json_",
+			"JSON",
+			"json",
+			"get_planet_pid",
+			"update",
+			"planet_data",
+			"update_effect",
+			"update_sess",
+			"time",
+			"current",
+			"print_r",
+			"checkResource",
+			"\"\\\"\".$target",
+			"id_deveing",
+			"is_deveing",
+			"is_deving",
+			"\"developing\"",
+			"Communication.log",
+			"Communication.log(",
+			"Comm",
+			"_initSession",
+			"login"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"mTeratory",
+			"=>",
+			"\\\"",
+			"i",
+			"\"False\"",
+			"\"True\"",
+			"\"",
+			"",
+			"$val",
+			"is_deving",
+			"\"id_deveing\"",
+			"user_data",
+			"",
+			"datas.countries",
+			"GE",
+			"중",
+			"range",
+			"\\\"",
+			"_otherHand"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "main.html",
+					"settings":
+					{
+						"buffer_size": 5473,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								703,
+								703
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "joke.js",
+					"settings":
+					{
+						"buffer_size": 11498,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5804,
+								5804
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 4073.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 196.0
+	},
+	"output.markdown":
+	{
+		"height": 112.0
+	},
+	"output.sftp":
+	{
+		"height": 365.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 148.0,
+	"status_bar_visible": true
+}
